@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Js examples</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <script> 
+    function myfunction(txt) { 
+        document.getElementById("city").innerHTML = txt
+    } 
+    </script> 
+</head> 
+
+<body>
+    <h1>BASIC JS FUNCTIONS ARE EASY</h1>
+    <p>For Example, This Function allows you to choose between 2 answers. Can you guesss it right ?</p>
+        <div class="func1">
+            <p>
+            Which major city is South Africa's Mother City ?
+            </p>
+
+            <form> 
+            <input type="button" onclick="myfunction('Correct you clever twat!')" value="Cape Town"> 
+            <input type="button" onclick="myfunction('EEEEEHH! Incorrect you idiot...')" value="Durban"> 
+            </form> 
+
+            <p id="city"></p>
+        </div>
+    <h1>HERE'S ANOTHER</h1>
+        <div class="func2">
+            <p>This Function displays the exact date whenever you open the page.</p>
+
+            <p>So today's date should be....</p>
+
+            <p id="demo"></p>
+
+            <script>
+            var d = new Date();
+            d.setFullYear(2020, 0, 14);
+            document.getElementById("demo").innerHTML = d;
+            </script>
+            
+            <p>Cool right ?</p>
+        </div>
+
+</body> 
+</html> 

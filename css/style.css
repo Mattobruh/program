@@ -1,0 +1,23 @@
+body {
+    width: 100%;
+    display: block;
+    background: #8c98ba;
+}
+
+h1 {
+    font-size: 62px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #fdfdfd;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: #fdfdfd;
+}
+
+form {
+    margin-left: 880px;
+}
